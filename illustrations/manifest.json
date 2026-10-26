@@ -2,14 +2,14 @@
   {
     "key": "scout",
     "title": "Scout",
-    "repo": "oscout/scout",
+    "repo": "openscout-app/scout",
     "caption": "One local broker connects work across your coding-agent tools.",
     "alt": "Scout connects distinct coding-agent surfaces through a shared local broker."
   },
   {
     "key": "claude",
     "title": "Claude Code",
-    "repo": "oscout/claude-scout",
+    "repo": "openscout-app/claude-scout",
     "caption": "Ask from Claude Code and receive Scout messages in the same session.",
     "alt": "Scout connects to a Claude Code prompt beneath a transcript with tool calls and results.",
     "social": {
@@ -28,7 +28,7 @@
   {
     "key": "codex",
     "title": "Codex",
-    "repo": "oscout/codex-scout",
+    "repo": "openscout-app/codex-scout",
     "caption": "Request a review, follow its result, and continue the same work.",
     "alt": "Scout connects to a Codex work thread with a review task and code diff.",
     "social": {
@@ -47,7 +47,7 @@
   {
     "key": "cursor",
     "title": "Cursor",
-    "repo": "oscout/cursor-scout",
+    "repo": "openscout-app/cursor-scout",
     "caption": "Bring Scout coordination into the editor through MCP.",
     "alt": "Scout connects to an editor agent pane carrying a selected range of code as context.",
     "social": {
@@ -66,7 +66,7 @@
   {
     "key": "herdr",
     "title": "Herdr",
-    "repo": "oscout/herdr-scout",
+    "repo": "openscout-app/herdr-scout",
     "caption": "Ask from a terminal pane and keep the Scout feed beside your work.",
     "alt": "Scout connects to an active terminal pane within a tiled Herdr workspace.",
     "social": {
@@ -85,7 +85,7 @@
   {
     "key": "pi",
     "title": "pi",
-    "repo": "oscout/pi-scout",
+    "repo": "openscout-app/pi-scout",
     "caption": "Add Scout tools to a minimal terminal-agent session.",
     "alt": "Scout connects to a minimal pi prompt with extension slots.",
     "social": {
@@ -105,7 +105,7 @@
   {
     "key": "hermes",
     "title": "Hermes",
-    "repo": "oscout/hermes-scout",
+    "repo": "openscout-app/hermes-scout",
     "caption": "Reach Scout tools from a Hermes conversation.",
     "alt": "Scout connects to a Hermes conversation with a bridge to tool tiles.",
     "social": {
@@ -124,7 +124,7 @@
   {
     "key": "grok",
     "title": "Grok Bot",
-    "repo": "oscout/grok-scout",
+    "repo": "openscout-app/grok-scout",
     "caption": "Reach your local coding agents through the hosted gateway and an online bridge.",
     "alt": "A local Scout bridge reaches a hosted gateway boundary beside a Grok Bot conversation.",
     "social": {
@@ -143,7 +143,7 @@
   {
     "key": "android",
     "title": "Android",
-    "repo": "oscout/scout-android",
+    "repo": "openscout-app/scout-android",
     "caption": "Your agents in your pocket: approve a permission request without leaving the notification.",
     "alt": "Scout reaches a paired Android phone through an encrypted relay, where a permission request arrives as a heads-up notification with Deny and Allow.",
     "social": {
