@@ -4,6 +4,7 @@ This repository owns the public GitHub profile and shared base assets for the
 [`openscout-app`](https://github.com/openscout-app) organization.
 
 - `profile/README.md` renders on the organization home page.
+- `profile/assets/scout-mesh-light.png` and `scout-mesh-dark.png` are the profile hero: the mesh scene from openscout.app, frozen on the approval beat (`/home-assets/mesh-embed.html#t=11`) and captured at 2x on GitHub's light and dark page colors.
 - `assets/illustrations/` contains the shared light/dark integration artwork and PNG exports.
 - [`illustrations/`](./illustrations/README.md) owns the generator, platform icons, gallery, captions, and visual rules.
 - `profile/assets/org-hero.png` retains the homepage artwork used for social cards (1730×909).
@@ -24,4 +25,4 @@ bun run check
 ```
 
 Keep claims aligned with Scout's current posture: high-trust local developer
-pilots, not enterprise or compliance readiness.
+use, not enterprise or compliance readiness.

@@ -10,7 +10,8 @@ Use these values when configuring the public GitHub organization.
 | Avatar | `assets/oscout-avatar.png` |
 | Profile README | `profile/README.md` |
 
-The organization profile hero is `profile/assets/org-hero.png`. Keep the org
+The organization profile hero is `profile/assets/scout-mesh-light.png` and
+`profile/assets/scout-mesh-dark.png`. Social cards keep `profile/assets/org-hero.png`. Keep the org
 description broad and use the Scout repository description for the concrete
 CLI/runtime promise.
 

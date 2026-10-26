@@ -7,6 +7,8 @@ const required = [
   "README.md",
   "profile/README.md",
   "profile/assets/org-hero.png",
+  "profile/assets/scout-mesh-light.png",
+  "profile/assets/scout-mesh-dark.png",
   "assets/oscout-avatar.svg",
   "assets/oscout-avatar.png",
   "assets/org-social-preview.png",
