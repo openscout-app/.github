@@ -1,12 +1,12 @@
-# oscout organization metadata
+# openscout-app organization metadata
 
 Use these values when configuring the public GitHub organization.
 
 | Field | Value |
 | --- | --- |
-| Display name | oscout |
+| Display name | Scout |
 | Description | Open infrastructure for your personal agent cloud. Home of Scout. |
-| URL | `https://oscout.net` |
+| URL | `https://openscout.app` |
 | Avatar | `assets/oscout-avatar.png` |
 | Profile README | `profile/README.md` |
 

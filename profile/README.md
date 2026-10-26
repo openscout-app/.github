@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/oscout/.github/main/assets/illustrations/scout-scout-dark.svg" />
-    <img src="https://raw.githubusercontent.com/oscout/.github/main/assets/illustrations/scout-scout-light.svg" alt="Scout connects Claude Code, Codex, Cursor, and hosted conversations through a local broker." width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/openscout-app/.github/main/assets/illustrations/scout-scout-dark.svg" />
+    <img src="https://raw.githubusercontent.com/openscout-app/.github/main/assets/illustrations/scout-scout-light.svg" alt="Scout connects Claude Code, Codex, Cursor, and hosted conversations through a local broker." width="100%" />
   </picture>
 </p>
 
@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/oscout/scout"><img alt="Scout" src="https://img.shields.io/badge/explore-Scout-fff7ea?style=flat-square&labelColor=171a16" /></a>
+  <a href="https://github.com/openscout-app/scout"><img alt="Scout" src="https://img.shields.io/badge/explore-Scout-fff7ea?style=flat-square&labelColor=171a16" /></a>
   <a href="https://www.npmjs.com/package/@openscout/scout"><img alt="npm version" src="https://img.shields.io/npm/v/@openscout/scout?style=flat-square&label=npm&color=f7f4ea&labelColor=171a16" /></a>
   <a href="https://oscout.net"><img alt="oscout.net" src="https://img.shields.io/badge/home-oscout.net-dde6d8?style=flat-square&labelColor=171a16" /></a>
 </p>
@@ -26,7 +26,7 @@ durable across tools and machines.
 
 ## Start with Scout
 
-[`oscout/scout`](https://github.com/oscout/scout) is the CLI, broker, runtime,
+[`openscout-app/scout`](https://github.com/openscout-app/scout) is the CLI, broker, runtime,
 protocol, and local web surface behind the OpenScout agent mesh.
 
 ```bash
@@ -41,13 +41,13 @@ scout ask --project . --harness codex "Review this repository."
 
 | Your tool | Scout integration |
 | --- | --- |
-| Claude Code | [Commands and channel](https://github.com/oscout/claude-scout) |
-| Codex | [MCP tools and coordination skill](https://github.com/oscout/codex-scout) |
-| Cursor | [Editor MCP configuration](https://github.com/oscout/cursor-scout) |
-| Herdr | [Terminal pane actions and feed](https://github.com/oscout/herdr-scout) |
-| pi | [Native Scout tools](https://github.com/oscout/pi-scout) |
-| Hermes | [Conversation and tool bridge](https://github.com/oscout/hermes-scout) |
-| Grok Bot | [Hosted connector](https://github.com/oscout/grok-scout) |
+| Claude Code | [Commands and channel](https://github.com/openscout-app/claude-scout) |
+| Codex | [MCP tools and coordination skill](https://github.com/openscout-app/codex-scout) |
+| Cursor | [Editor MCP configuration](https://github.com/openscout-app/cursor-scout) |
+| Herdr | [Terminal pane actions and feed](https://github.com/openscout-app/herdr-scout) |
+| pi | [Native Scout tools](https://github.com/openscout-app/pi-scout) |
+| Hermes | [Conversation and tool bridge](https://github.com/openscout-app/hermes-scout) |
+| Grok Bot | [Hosted connector](https://github.com/openscout-app/grok-scout) |
 
 ## What guides the work
 
@@ -65,10 +65,10 @@ avoid claiming enterprise or compliance readiness before it exists.
 
 ## Find your way in
 
-- [Install Scout](https://github.com/oscout/scout#get-started)
-- [Read the architecture](https://github.com/oscout/scout#the-small-model)
-- [Contribute](https://github.com/oscout/scout/blob/main/CONTRIBUTING.md)
-- [Get support](https://github.com/oscout/scout/blob/main/SUPPORT.md)
-- [Report a security issue](https://github.com/oscout/scout/security/policy)
+- [Install Scout](https://github.com/openscout-app/scout#get-started)
+- [Read the architecture](https://github.com/openscout-app/scout#the-small-model)
+- [Contribute](https://github.com/openscout-app/scout/blob/main/CONTRIBUTING.md)
+- [Get support](https://github.com/openscout-app/scout/blob/main/SUPPORT.md)
+- [Report a security issue](https://github.com/openscout-app/scout/security/policy)
 
 <p align="center"><sub>Built for operators who want agents to collaborate without surrendering the controls.</sub></p>

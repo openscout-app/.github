@@ -1,5 +1,5 @@
 // Repository social preview cards (GitHub "Social preview"), one per integration.
-// 2560 × 1280 PNG drawn on a 1280 × 640 grid in oscout/scout's card style: an eyebrow, then the
+// 2560 × 1280 PNG drawn on a 1280 × 640 grid in openscout-app/scout's card style: an eyebrow, then the
 // co-brand lockup (Scout mark × host mark, same size, no wordmark), the shared tagline ("Organized
 // collaboration between all your agents, in <host>.") and three points on the left; on the right, a crop of the host's own dark illustration around its entry.
 // Text and crops live in manifest.json under "social".

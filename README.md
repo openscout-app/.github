@@ -1,7 +1,7 @@
-# oscout organization profile
+# openscout-app organization profile
 
 This repository owns the public GitHub profile and shared base assets for the
-[`oscout`](https://github.com/oscout) organization.
+[`openscout-app`](https://github.com/openscout-app) organization.
 
 - `profile/README.md` renders on the organization home page.
 - `assets/illustrations/` contains the shared light/dark integration artwork and PNG exports.
