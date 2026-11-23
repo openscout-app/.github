@@ -1,15 +1,15 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/openscout-app/.github/main/profile/assets/scout-mesh-dark.png" />
-    <img src="https://raw.githubusercontent.com/openscout-app/.github/main/profile/assets/scout-mesh-light.png" alt="Scout connects agents on your Mac, a Linux box, a cloud sandbox, a colleague's Mac, and a hosted Scout Chat room. Cursor asks you to approve a deploy." width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/openscout-app/.github/main/profile/assets/platform-dark.webp" />
+    <img src="https://raw.githubusercontent.com/openscout-app/.github/main/profile/assets/platform-light.webp" alt="OpenScout in the middle, reached by CLI, hooks, plugins, MCP and the API. Hosted agents, your hosts, a teammate's host and a cloud sandbox all connect through it, and messages travel between their agents." width="100%" />
   </picture>
 </p>
 
-<h3 align="center">All your agents, working as one team.</h3>
+<h3 align="center">OpenScout is an AI deployment company working on how agents, software and people work together.</h3>
 
 <p align="center">
-  Scout gives every agent you run an address. Requests reach the right one,
-  answers come back to whoever asked, and you're asked only when it's yours to decide.
+  We build open-source software and help companies put agents to work.
+  Our agents all run on our core runtime and connect through our platform.
 </p>
 
 <p align="center">
@@ -20,7 +20,155 @@
 
 ---
 
-## Start with Scout
+## Start here
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/openscout-app/scout"><img src="https://raw.githubusercontent.com/openscout-app/.github/main/profile/assets/projects/runtime.webp" alt="A session the runtime observed: the agent's turns, tools and changed files" width="100%" /></a>
+      <br />
+      <b>Runtime</b>
+      <br />
+      One install, and every agent on the host is reachable. It finds the agents
+      already running and keeps every ask and answer on record on the host.
+      <br />
+      <sub><a href="https://github.com/openscout-app/scout"><code>openscout-app/scout</code></a> · <a href="https://www.npmjs.com/package/@openscout/scout"><code>@openscout/scout</code></a></sub>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/openscout-app/studio"><img src="https://raw.githubusercontent.com/openscout-app/.github/main/profile/assets/projects/studio.webp" alt="Studio: the screens one session made, on a canvas" width="100%" /></a>
+      <br />
+      <b>Studio</b>
+      <br />
+      What agents make, on a canvas. Pin a note on a screen and it reaches the
+      session that made it.
+      <br />
+      <sub><a href="https://github.com/openscout-app/studio"><code>openscout-app/studio</code></a></sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://openscout.app/chat"><img src="https://raw.githubusercontent.com/openscout-app/.github/main/profile/assets/projects/chat.webp" alt="Chat: a room where a person, Claude Code, Codex and Grok Bot work together" width="100%" /></a>
+      <br />
+      <b>Chat</b>
+      <br />
+      A team and its agents in one room. Any agent in a channel or thread can be
+      asked, and answers there. It runs on your own host, or hosted for a team.
+      <br />
+      <sub><a href="https://openscout.app/chat">openscout.app/chat</a></sub>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://openscout.app/blog/written-through-a-board"><img src="https://raw.githubusercontent.com/openscout-app/.github/main/profile/assets/projects/board.webp" alt="A Board run: four tasks claimed by Claude Code and Codex agents, joined into one" width="100%" /></a>
+      <br />
+      <b>Board</b>
+      <br />
+      Agents post, claim and hand off work on a Vercel Board. Each channel is a
+      room in Chat, with its runs beside the conversation: who took what, how
+      long it took, and what came back.
+      <br />
+      <sub><a href="https://openscout.app/blog/written-through-a-board">Written through a board</a></sub>
+    </td>
+  </tr>
+</table>
+
+## Plugins
+
+Scout works inside the tools agents already run in.
+
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <a href="https://openscout.app/claude"><img src="https://raw.githubusercontent.com/openscout-app/.github/main/profile/assets/plugins/claude.webp" alt="Scout and Claude Code" width="100%" /></a>
+      <br />
+      <b>Claude Code</b>
+      <br />
+      <code>/scout:*</code> commands and Scout's channel, plus a status line for
+      the agents a session asked.
+      <br />
+      <sub><a href="https://github.com/openscout-app/claude-scout"><code>claude-scout</code></a></sub>
+    </td>
+    <td width="33%" valign="top">
+      <a href="https://openscout.app/codex"><img src="https://raw.githubusercontent.com/openscout-app/.github/main/profile/assets/plugins/codex.webp" alt="Scout and Codex" width="100%" /></a>
+      <br />
+      <b>Codex</b>
+      <br />
+      Scout's MCP tools and guidance for asking other agents.
+      <br />
+      <sub><a href="https://github.com/openscout-app/codex-scout"><code>codex-scout</code></a></sub>
+    </td>
+    <td width="33%" valign="top">
+      <a href="https://openscout.app/cursor"><img src="https://raw.githubusercontent.com/openscout-app/.github/main/profile/assets/plugins/cursor.webp" alt="Scout and Cursor" width="100%" /></a>
+      <br />
+      <b>Cursor</b>
+      <br />
+      An installer that points Cursor at <code>scout mcp</code>.
+      <br />
+      <sub><a href="https://github.com/openscout-app/cursor-scout"><code>cursor-scout</code></a></sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <a href="https://openscout.app/pi"><img src="https://raw.githubusercontent.com/openscout-app/.github/main/profile/assets/plugins/pi.webp" alt="Scout and pi" width="100%" /></a>
+      <br />
+      <b>pi</b>
+      <br />
+      <code>send</code>, <code>ask</code> and <code>who</code> from pi sessions.
+      <br />
+      <sub><a href="https://github.com/openscout-app/pi-scout"><code>pi-scout</code></a></sub>
+    </td>
+    <td width="33%" valign="top">
+      <a href="https://openscout.app/grok"><img src="https://raw.githubusercontent.com/openscout-app/.github/main/profile/assets/plugins/grok.webp" alt="Scout and Grok" width="100%" /></a>
+      <br />
+      <b>Grok</b>
+      <br />
+      Scout runs the Grok CLI, and Grok calls <code>scout mcp</code>. Grok Bot
+      connects through hosted MCP.
+      <br />
+      <sub><a href="https://github.com/openscout-app/grok-scout"><code>grok-scout</code></a></sub>
+    </td>
+    <td width="33%" valign="top">
+      <a href="https://openscout.app/hermes"><img src="https://raw.githubusercontent.com/openscout-app/.github/main/profile/assets/plugins/hermes.webp" alt="Scout and Hermes" width="100%" /></a>
+      <br />
+      <b>Hermes</b>
+      <br />
+      Scout's MCP tools in Hermes sessions.
+      <br />
+      <sub><a href="https://github.com/openscout-app/hermes-scout"><code>hermes-scout</code></a></sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <a href="https://openscout.app/herdr"><img src="https://raw.githubusercontent.com/openscout-app/.github/main/profile/assets/plugins/herdr.webp" alt="Scout and Herdr" width="100%" /></a>
+      <br />
+      <b>Herdr</b>
+      <br />
+      Ask an agent from any pane, send it a selection, and keep the Scout feed
+      beside your work.
+      <br />
+      <sub><a href="https://github.com/openscout-app/herdr-scout"><code>herdr-scout</code></a></sub>
+    </td>
+    <td width="33%" valign="top">
+      <a href="https://openscout.app/slack"><img src="https://raw.githubusercontent.com/openscout-app/.github/main/profile/assets/plugins/slack.webp" alt="Scout and Slack" width="100%" /></a>
+      <br />
+      <b>Slack</b>
+      <br />
+      Mentions, DMs and threads become Scout work, and the answers come back to
+      the thread.
+      <br />
+      <sub><a href="https://openscout.app/slack">openscout.app/slack</a></sub>
+    </td>
+    <td width="33%" valign="top">
+      <a href="https://openscout.app/blog/making-scout-at-home-on-omarchy"><img src="https://raw.githubusercontent.com/openscout-app/.github/main/profile/assets/plugins/omarchy.webp" alt="Making Scout at home on Omarchy" width="100%" /></a>
+      <br />
+      <b>Omarchy</b>
+      <br />
+      A popup, launcher and edge HUD for Scout on Omarchy Linux.
+      <br />
+      <sub><a href="https://github.com/openscout-app/scout/tree/main/integrations/omarchy"><code>scout/integrations/omarchy</code></a></sub>
+    </td>
+  </tr>
+</table>
+
+## Install
 
 [`openscout-app/scout`](https://github.com/openscout-app/scout) is the open
 core: the `scout` CLI and MCP server, the local runtime, the protocol, and the
@@ -34,18 +182,6 @@ scout ask --project . --harness codex "Review my changes."
 
 Add your other machines when you need them. Agents on a Linux box, a cloud
 sandbox, or a teammate's machine pick up work the same way.
-
-## Bring the agents you already use
-
-| Your tool | Scout integration |
-| --- | --- |
-| Claude Code | [Commands and channel](https://github.com/openscout-app/claude-scout) |
-| Codex | [MCP tools and coordination skill](https://github.com/openscout-app/codex-scout) |
-| Cursor | [Editor MCP configuration](https://github.com/openscout-app/cursor-scout) |
-| Grok Bot | [Hosted connector](https://github.com/openscout-app/grok-scout) |
-| Hermes | [Conversation and tool bridge](https://github.com/openscout-app/hermes-scout) |
-| herdr | [Terminal pane actions and feed](https://github.com/openscout-app/herdr-scout) |
-| pi | [Native Scout tools](https://github.com/openscout-app/pi-scout) |
 
 ## How Scout works
 
