@@ -1,30 +1,23 @@
 <p align="center">
-  <img src="./assets/org-hero.svg" alt="Scout — one place to see, steer, and remember your agents" width="100%" />
+  <img src="./assets/org-hero.svg" alt="Scout. Agents give everyone more leverage. Scout helps them work together as one team." width="100%" />
 </p>
 
 <p align="center">
-  <strong>Open infrastructure for your personal agent cloud.</strong><br />
-  A local control plane and mesh network across the machines you own.
-</p>
-
-<p align="center">
-  <a href="https://github.com/oscout/scout"><img alt="Scout" src="https://img.shields.io/badge/explore-Scout-fff7ea?style=flat-square&labelColor=10110f" /></a>
+  <a href="https://github.com/openscout-app/scout"><img alt="Scout on GitHub" src="https://img.shields.io/badge/source-openscout--app%2Fscout-fff7ea?style=flat-square&labelColor=10110f" /></a>
   <a href="https://www.npmjs.com/package/@openscout/scout"><img alt="npm version" src="https://img.shields.io/npm/v/@openscout/scout?style=flat-square&label=npm&color=fff7ea&labelColor=10110f" /></a>
-  <a href="https://oscout.net"><img alt="oscout.net" src="https://img.shields.io/badge/home-oscout.net-fff7ea?style=flat-square&labelColor=10110f" /></a>
+  <a href="https://openscout.app"><img alt="openscout.app" src="https://img.shields.io/badge/site-openscout.app-fff7ea?style=flat-square&labelColor=10110f" /></a>
 </p>
 
----
-
-We build the public core of **OpenScout**: a local-first control plane for
-discovering coding-agent sessions, routing work, and keeping coordination
-durable across tools and machines.
-
-> **Local control plane + mesh network = your personal agent cloud.**
+Scout is open infrastructure for your personal agent cloud. It is a local
+runtime that coordinates coding agents on a host, and a mesh that connects
+runtimes across the hosts you trust. Keep your existing agent tools and
+provider accounts; Scout gives them one model for identity, routing, requests,
+replies, and durable work.
 
 ## Start with Scout
 
-[`oscout/scout`](https://github.com/oscout/scout) is the CLI, broker, runtime,
-protocol, and local web surface behind the OpenScout agent mesh.
+[`openscout-app/scout`](https://github.com/openscout-app/scout) holds the
+runtime, harness adapters, CLI, TUI, MCP server, and protocol.
 
 ```bash
 bun add -g @openscout/scout
@@ -34,26 +27,24 @@ scout doctor
 scout ask --project . --harness codex "Review this repository."
 ```
 
-## What guides the work
+## Principles
 
 | Principle | In practice |
 | --- | --- |
-| **Local first** | Your broker and coordination state stay under your control. |
-| **Explicit routing** | Targets and channels are structured data, not guesses hidden in message text. |
-| **Durable coordination** | Requests, flights, replies, and handoffs survive individual sessions. |
-| **Observed transcripts** | External harness history remains source material, not silently imported first-party chat. |
-| **Honest mesh semantics** | Mesh means reachability and coordination—not global consensus or exactly-once delivery. |
+| **Local first** | The runtime and its coordination state stay on hosts you control. |
+| **Explicit routing** | Targets and channels are structured data, never inferred from message text. |
+| **Durable coordination** | Requests, flights, replies, and handoffs outlive the sessions that started them. |
+| **Observed transcripts** | Harness history is source material. Scout reads it; it does not import it as its own messages. |
+| **Honest mesh semantics** | Mesh means reachability and coordination, not global consensus or exactly-once delivery. |
 
-OpenScout is currently built for high-trust local developer pilots. We are
-shipping the foundations in public while the product is still young, and we
-avoid claiming enterprise or compliance readiness before it exists.
+Scout is built for high-trust local developer use. The foundations ship in
+public while the product is young, and we do not claim enterprise or
+compliance readiness.
 
 ## Find your way in
 
-- [Install Scout](https://github.com/oscout/scout#start-in-60-seconds)
-- [Read the architecture](https://github.com/oscout/scout#one-broker-many-surfaces)
-- [Contribute](https://github.com/oscout/scout/blob/main/CONTRIBUTING.md)
-- [Get support](https://github.com/oscout/scout/blob/main/SUPPORT.md)
-- [Report a security issue](https://github.com/oscout/scout/security/policy)
-
-<p align="center"><sub>Built for operators who want agents to collaborate without surrendering the controls.</sub></p>
+- [Install Scout](https://github.com/openscout-app/scout#install-and-first-run)
+- [What lives where](https://github.com/openscout-app/scout#what-lives-where)
+- [Contribute](https://github.com/openscout-app/scout/blob/main/CONTRIBUTING.md)
+- [Get support](https://github.com/openscout-app/scout/blob/main/SUPPORT.md)
+- [Report a security issue](https://github.com/openscout-app/scout/security/policy)
